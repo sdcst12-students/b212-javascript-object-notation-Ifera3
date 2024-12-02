@@ -7,3 +7,14 @@
 
 import json
 
+afileData = open('task01a.txt','r').read()
+alist = json.loads(afileData)
+print(f"task01a: {max(alist)}")
+
+bfileData = open('task01b.txt','r').read()
+blist = json.loads(bfileData)
+print(f"task01b: {max(blist)}")
+
+cfileData = open('task01c.txt','r').read()
+clist = json.loads(cfileData)
+print(f"task01c: {max(clist)}")
